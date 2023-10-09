@@ -11,7 +11,7 @@ public class PersonTest{
         //调用对象的结构
         p1.name="li hua";
         p1.isMale=true;
-
+        
 
     }
 

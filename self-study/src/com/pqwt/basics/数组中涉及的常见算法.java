@@ -12,13 +12,8 @@ class ArrayTest3{
         }
         */
 
-        //2.数组的复制
-        int[] arr1,arr2;
-        arr1=new int[]{2,3,4,5,6,7,8,9};
-       /* for (int j : arr1)
-        {
-            System.out.print(j + "\t");
-        }*/
+        
+        
 
         //下面这一行不叫复制
         /*arr2=arr1;//arr2和aar1公用同一块地址，对2修改，1也跟着变化

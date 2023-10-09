@@ -30,7 +30,7 @@ class ArrayTest {
         //数组的内存解析
         //栈(局部变量） 堆（new出来的结构） 方法区（分为常量池，静态域）
 
-        int[] arr = new int[5];
+        
 
 
 

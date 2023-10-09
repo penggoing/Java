@@ -21,7 +21,6 @@ class VariableTest{
 
         //boolean 只能取true和false两个值
 
-        boolean b00l1=true;
         System.out.println(b1);
 
     }

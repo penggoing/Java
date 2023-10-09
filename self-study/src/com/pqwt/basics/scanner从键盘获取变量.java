@@ -14,18 +14,18 @@ import  java.util.Scanner;
 class ScannerTest{
     public static void main(String[] args)
     {
-        Scanner scan=new Scanner(System.in);
-
-        int num=scan.nextInt();
-        /* 输入整型 */
-        System.out.println("num="+num);
-        /* 输入字符串 */
-        String st=scan.next();
-        System.out.println("st="+st);
-        //对于char的获取，Scanner没有提供相关方法，只能以获取字符串的方法来获.下面是个特殊方取字符法
-        String gender=scan.next();
-        char genderChar=gender.charAt(0);
-        System.out.println("gender"+genderChar);
+        try (Scanner scan = new Scanner(System.in)) {
+            int num=scan.nextInt();
+            /* 输入整型 */
+            System.out.println("num="+num);
+            /* 输入字符串 */
+            String st=scan.next();
+            System.out.println("st="+st);
+            //对于char的获取，Scanner没有提供相关方法，只能以获取字符串的方法来获.下面是个特殊方取字符法
+            String gender=scan.next();
+            char genderChar=gender.charAt(0);
+            System.out.println("gender"+genderChar);
+        }
 
     }
 }
